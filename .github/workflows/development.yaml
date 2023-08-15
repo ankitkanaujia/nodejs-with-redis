@@ -11,8 +11,8 @@ jobs:
 
     steps: 
      -name: Get Code 
-      uses: actions/checkout@v3 
+      uses: actions/checkout@v2 
      -name: Use node js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v1
      -name: Install dependencies
       run: npm ci     
